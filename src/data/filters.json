@@ -1,0 +1,70 @@
+{
+    "sectors": [
+        {
+            "id": 1,
+            "name": "Sales"
+        },
+        {
+            "id": 2,
+            "name": "Airlines"
+        },
+        {
+            "id": 3,
+            "name": "Administration"
+        },
+        {
+            "id": 4,
+            "name": "Computer Software"
+        }
+    ],
+    "countries": [
+        {
+            "id": 1,
+            "name": "Palestine",
+            "cities": [
+                {
+                    "id": 1,
+                    "name": "Quds"
+                },
+                {
+                    "id": 2,
+                    "name": "Gaza"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Jordon",
+            "cities": [
+                {
+                    "id": 3,
+                    "name": "Oman"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Lebanon",
+            "cities": [
+                {
+                    "id": 4,
+                    "name": "Beirut"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Saudi Arabia",
+            "cities": [
+                {
+                    "id": 5,
+                    "name": "Geddah"
+                },
+                {
+                    "id": 6,
+                    "name": "Mekka"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+.SideBar {
+    height: 100%;
+    min-height: 600px;
+    width: 270px;
+    border: 1px solid #707070;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+
+    .filter {
+
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .value {
+            
+            .lbl {
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+}

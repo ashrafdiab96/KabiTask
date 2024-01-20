@@ -1,0 +1,32 @@
+.Home {
+    background-color: #E0E0E0;
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+
+    .Jobs {
+        width: 100%;
+
+        .SearchAndAdd {
+            width: 100%;
+            display: flex;
+            gap: 10px;
+
+            .inp {
+                width: 900px;
+                height: 36px;
+                padding: 0 20px;
+            }
+
+            .btn {
+                width: 150px;
+                background-color:  #0d6efd;
+                border: 3px solid #FFFFFF;
+                color: #FFFFFF !important;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+    }
+}

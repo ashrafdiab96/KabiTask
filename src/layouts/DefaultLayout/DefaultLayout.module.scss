@@ -1,0 +1,13 @@
+.DefaultLayout {
+    background-color: #FFFFFF !important;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    min-height: 620px;
+    padding: 20px;
+
+    .Content {
+        overflow-y: hidden;
+        width: 1640px;
+    }
+}
