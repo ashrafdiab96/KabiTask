@@ -3,6 +3,8 @@ import styles from './Home.module.scss';
 import DefaultLayout from '@/layouts/DefaultLayout/DefaultLayout';
 import { useDispatch } from 'react-redux';
 import { openAddJobModal } from '@/redux/store';
+import jobs from '../data/jobs';
+import JobCard from '@/components/JobCard/JobCard';
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -29,6 +31,13 @@ const Home = () => {
                             className={styles.btn}
                             onClick={handleOpenAddJob}
                         >Add New Job</button>
+                    </div>
+                    <div className={styles.AllJobs}>
+                        {jobs?.map((job, index) => (
+                            <div key={index}>
+                                <JobCard job={job} />
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>

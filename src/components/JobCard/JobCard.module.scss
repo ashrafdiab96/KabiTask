@@ -1,0 +1,30 @@
+.JobCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #0047b1;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+
+    .Data {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+
+        img {
+            width: 150px;
+        }
+
+        .content {
+            .title {}
+
+            .city {}
+
+            .sector {}
+
+            .desc {}
+        }
+    }
+}
