@@ -1,0 +1,43 @@
+.job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    gap: 20px;
+
+    img {
+        margin-top: 40px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .title {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .city {
+            font-size: 22px;
+            font-weight: 400;
+        }
+
+        .sector {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .desc {
+            font-size: 16px;
+            font-weight: 400;
+            color: #707070 !important;
+        }
+    }
+}

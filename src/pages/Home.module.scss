@@ -3,13 +3,11 @@
     width: 100%;
     height: 100%;
     min-height: 900px;
-    max-height: 900px;
     padding: 20px 10px;
 
     .Jobs {
         width: 100%;
         height: 100%;
-        overflow: auto;
 
         .SearchAndAdd {
             width: 100%;
@@ -30,6 +28,91 @@
                 font-size: 18px;
                 font-weight: 500;
                 cursor: pointer;
+            }
+        }
+
+        .AllJobs {
+
+            .pagination {
+                display: flex;
+                margin-top: 20px;
+
+                .prev,
+                .next,
+                .number {
+                    border: 1px solid #707070;
+                    padding: 4px;
+                    cursor: pointer;
+                    background-color: #FFFFFF;
+                    color: #000000;
+                    width: 45px;
+                    text-align: center;
+                }
+
+                .activePage {
+                    background-color: #0d6efd !important;
+                    color: #FFFFFF !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1032px) {
+    .Home {
+    
+        .Jobs {
+    
+            .SearchAndAdd {
+    
+                .inp {
+                    width: 680px;
+                }
+    
+                .btn {
+                    width: 120px;
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 820px) {
+    .Home {
+    
+        .Jobs {
+    
+            .SearchAndAdd {
+    
+                .inp {
+                    width: 480px;
+                }
+    
+                .btn {
+                    width: 100px;
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 558px) {
+    .Home {
+    
+        .Jobs {
+    
+            .SearchAndAdd {
+    
+                .inp {
+                    width: 300px;
+                }
+    
+                .btn {
+                    width: 100px;
+                    font-size: 12px !important;
+                }
             }
         }
     }

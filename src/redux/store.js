@@ -2,6 +2,7 @@ import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { PERSIST, persistReducer, persistStore } from "redux-persist";
 import createWebStorage from "redux-persist/lib/storage/createWebStorage";
 import AddJobModalSlice from "./slices/AddJobModalSlice";
+import filtersSlice from "./slices/FiltersSlice";
 
 const createNoopStorage = () => {
     return {
@@ -28,6 +29,7 @@ const persistedReducer = persistReducer(
     },
     combineReducers({
         addJobModal: AddJobModalSlice.reducer,
+        selectedFilters: filtersSlice.reducer,
     })
 );
 
@@ -46,5 +48,11 @@ export const {
     openAddJobModal,
     closeAddJobModal
 } = AddJobModalSlice.actions;
+
+export const {
+    setFilterSector,
+    setFilterCountries,
+    setFilterCities
+} = filtersSlice.actions;
 
 export default store;
